@@ -1,0 +1,47 @@
+header{
+    display:flex;
+    flex-direction: column;
+}
+h1{
+    align-self: center;
+    color: rgb(191, 103, 2);
+    font-family: 'Festive', cursive;
+}
+
+img{
+    height: 30vh;
+}
+
+#board{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3%;
+    
+}
+
+h2,h3{
+    display: flex;
+    color: rgb(191, 103, 2);
+    justify-content: center;
+    font-family: 'Festive', cursive;
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+}
+#score{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+    color: rgb(191, 21, 2);
+    font-size: 30px;
+    margin-top: -30px;
+    font-weight: bold;
+    background-color: antiquewhite;
+    width: 15%;
+}

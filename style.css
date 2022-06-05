@@ -1,0 +1,75 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: #bf6702;
+  font-family: 'Festive', cursive;
+}
+
+img {
+  height: 30vh;
+}
+
+#board {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 3%;
+}
+
+h2, h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #bf6702;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Festive', cursive;
+  font-size: 30px;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#score {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  justify-self: center;
+  color: #bf1502;
+  font-size: 30px;
+  margin-top: -30px;
+  font-weight: bold;
+  background-color: antiquewhite;
+  width: 15%;
+}
+/*# sourceMappingURL=style.css.map */
